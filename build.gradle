@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+version ''
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.15.2-R0.1-SNAPSHOT'
+    compileOnly files('libs/UltraCustomizer.jar','libs/UltraCustomizer+.jar','libs/UltraPermissions.jar')
+}
+
+repositories {
+    mavenCentral()
+    jcenter()
+    maven {
+        name = 'spigotmc-repo'
+        url = 'https://hub.spigotmc.org/nexus/content/groups/public/'
+    }
+}

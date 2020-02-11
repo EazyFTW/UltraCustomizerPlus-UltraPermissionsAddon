@@ -1,4 +1,4 @@
-package com.eazyftw.ucupermsaddon.permissions;
+package com.eazyftw.ucupermsaddon.groups;
 
 import com.eazyftw.ultracustomizerplus.addon.ElementUCP;
 import me.TechsCode.UltraCustomizer.UltraCustomizer;

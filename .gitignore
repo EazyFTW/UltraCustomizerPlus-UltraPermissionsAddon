@@ -1,6 +1,7 @@
 /libs/
 /.gradle/
 /.idea/
+/build/
 gradlew
 gradlew.bat
 settings.gradle
